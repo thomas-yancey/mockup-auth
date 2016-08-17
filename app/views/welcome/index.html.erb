@@ -1,0 +1,32 @@
+<div class="welcome-container">
+
+  <div class="tag-line">
+    <div class="tag-container">
+      <h2>Accelerating Scientific Discovery</h2>
+      <p>Authorea is the collaborative editor for reasearch.<br>
+        Write and Manage your documents in one place, for free.
+      </p>
+    </div>
+  </div>
+
+  <%= form_tag "/welcome/index" do %>
+    <%= text_field_tag :name, nil, placeholder: 'NAME' %>
+    <%= text_field_tag :name, nil, placeholder: 'USERNAME' %>
+    <%= password_field_tag :name, nil, placeholder: 'PASSWORD' %><br>
+    <%= submit_tag "start writing", class: "start-button" %>
+  <% end %>
+
+</div>
+
+<div class="flex-filler">
+</div>
+
+<footer>
+  <div class="footer">
+    <p>
+      <b>Challoner, Jack.</b>
+      Floating and Sinking
+      <span>Image courtesty of NASA Images</span>
+    </p>
+  </div>
+</footer>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Authorea</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <navbar class="landing">
+      <a class="navbar-brand" href="http://www.authorea.com">
+        <%= image_tag("Authorea-navbar.png", class: "authorea-logo") %>
+      </a>
+      <ul class="nav-list-right">
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#contact">explore</a></li>
+        <li><a class="nav-link" href="#contact">help</a></li>
+        <span class="signup">signup</span>
+      </ul>
+    </navbar>
+
+    <%= yield %>
+  </body>
+</html>
