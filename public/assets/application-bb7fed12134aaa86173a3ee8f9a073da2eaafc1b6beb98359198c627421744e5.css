@@ -1,0 +1,258 @@
+/* line 5, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+body {
+  background-image: url(/assets/background-image-1-6ed129e119215437c883913edfcc7ee4239549905553b29c32ab4e3133439b93.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 16, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 120px;
+}
+
+/* line 23, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+.authorea-logo {
+  max-width: 170px;
+}
+
+/* line 27, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  float: right;
+  margin-right: 40px;
+  list-style: none;
+  align-items: center;
+}
+
+/* line 39, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+li {
+  margin-right: 40px;
+  font-size: 13px;
+  font-family: 'open-sans', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+/* line 47, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+.nav-link {
+  list-style: none;
+  display: block;
+  float: right;
+  color: white;
+}
+
+/* line 54, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+.nav-link:hover {
+  color: white;
+}
+
+/* line 58, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+.nav-link:active {
+  color: white;
+}
+
+/* line 62, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+.nav-link:visited {
+  color: white;
+}
+
+/* line 66, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 13px;
+  width: 130px;
+  text-align: center;
+  height: 40px;
+  padding: 5px 30px 5px 30px;
+  border-radius: 50px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  color: white;
+}
+
+/* line 81, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+.signup:hover {
+  font-family: 'Lato', sans-serif;
+  font-weight: 0.5;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 30px 5px 30px;
+  border-radius: 50px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  color: black;
+  background-color: white;
+}
+
+/* line 94, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+.welcome-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 104, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+.tag-line {
+  max-width: 800px;
+}
+
+/* line 108, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+.tag-line h2, p {
+  color: #ffffff;
+}
+
+/* line 112, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+.tag-line h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 64px;
+  line-height: 120%;
+}
+
+/* line 119, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+.tag-line p {
+  font-size: 16px;
+  max-width: 450px;
+  margin: 0 auto;
+  line-height: 175%;
+  padding-bottom: 40px;
+}
+
+/* line 127, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+form input {
+  margin: 5px;
+  height: 40px;
+  width: 220px;
+}
+
+/* line 134, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+input#name {
+  padding-left: 20px;
+}
+
+/* line 138, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+.start-button {
+  text-decoration: none;
+  margin-top: 20px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: 'open-sans', sans-serif;
+  text-transform: uppercase;
+  width: 350px;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 0.5;
+  border: 1px solid white;
+  border-radius: 2px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+/* line 158, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+.start-button:hover {
+  background: #f6f6f6;
+  border: 1px solid black;
+  color: black;
+}
+
+/* line 164, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+.flex-filler {
+  height: 40px;
+}
+
+/* line 168, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+footer {
+  flex: none;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  background: #F6F6F6;
+  background-repeat: repeat-y;
+}
+
+/* line 179, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+footer .footer {
+  align-self: flex-end;
+  height: 40px;
+}
+
+/* line 184, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+.footer p {
+  font-size: 12px;
+  padding-top: 8px;
+  justify-content: center;
+  text-align: center;
+  font-family: 'open-sans', sans-serif;
+  color: black;
+}
+
+/* line 193, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+.footer span {
+  color: #ceb018;
+  font-weight: bold;
+}
+
+/* line 198, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+::-webkit-input-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder,
+:-moz-placeholder {
+  font-family: 'open-sans', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  /* line 207, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+  .tag-line h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 120%;
+  }
+
+  /* line 214, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+  ul {
+    display: none;
+  }
+
+  /* line 218, /Users/thomasyancey/auth-mock/app/assets/stylesheets/welcome.scss */
+  .footer {
+    display: none;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
