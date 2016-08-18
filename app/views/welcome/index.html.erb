@@ -9,7 +9,7 @@
     </div>
   </div>
 
-  <%= form_tag "/welcome/index" do %>
+  <%= form_tag({action: 'index'}, {class: "landing-form"}) do %>
     <%= text_field_tag :name, nil, placeholder: 'NAME' %>
     <%= text_field_tag :name, nil, placeholder: 'USERNAME' %>
     <%= password_field_tag :name, nil, placeholder: 'PASSWORD' %><br>

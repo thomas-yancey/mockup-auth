@@ -1,6 +1,8 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$primary-color: #ffffff;
+$secondary-color: black;
 
 body {
   background-image: image-url("background-image-1.jpg");
@@ -24,7 +26,7 @@ navbar {
   max-width: 170px;
 }
 
-ul {
+.nav-list-right {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -36,64 +38,69 @@ ul {
   align-items: center;
 }
 
-li {
+.nav-list-right li {
   margin-right: 40px;
   font-size: 13px;
   font-family: 'open-sans', sans-serif;
   text-transform: uppercase;
-  color: white;
+  color: $primary-color;
 }
 
 .nav-link {
   list-style: none;
   display: block;
   float: right;
-  color: white;
+  color: $primary-color;
 }
 
 .nav-link:hover {
-  color: white;
+  color: $primary-color;
 }
 
 .nav-link:active {
-  color: white;
+  color: $primary-color;
 }
 
 .nav-link:visited {
-  color: white;
+  color: $primary-color;
 }
 
 .signup {
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
+  -webkit-flex-direction: column;
   justify-content: center;
   font-size: 13px;
-  width: 130px;
   text-align: center;
   height: 40px;
+  width: 130px;
   padding: 5px 30px 5px 30px;
   border-radius: 50px;
-  border: 1px solid white;
+  border: 1px solid $primary-color;
   text-transform: uppercase;
-  color: white;
+  color: $primary-color;
 }
 
 .signup:hover {
   font-family: 'Lato', sans-serif;
-  font-weight: 0.5;
   cursor: pointer;
   font-size: 14px;
   padding: 5px 30px 5px 30px;
   border-radius: 50px;
-  border: 1px solid white;
+  border: 1px solid $primary-color;
   text-transform: uppercase;
-  color: black;
-  background-color:white;
+  background-color:$primary-color;
+  color: $secondary-color;
 }
+
+// center-content
 
 .welcome-container {
   flex: 1;
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-direction: column;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
@@ -103,6 +110,7 @@ li {
 
 .tag-line {
   max-width: 800px;
+  margin: 0 auto;
 }
 
 .tag-line h2, p {
@@ -124,23 +132,23 @@ li {
   padding-bottom: 40px;
 }
 
-form input {
+.landing-form input {
   margin: 5px;
   height: 40px;
   width: 220px;
 }
 
 
-input#name {
+.landing-form input#name {
   padding-left: 20px;
 }
 
-.start-button {
+.landing-form .start-button {
   text-decoration: none;
   margin-top: 20px;
   background-color: Transparent;
   background-repeat:no-repeat;
-  color: white;
+  color: #ffffff;
   font-family: 'open-sans', sans-serif;
   text-transform: uppercase;
   width: 350px;
@@ -148,7 +156,7 @@ input#name {
   padding-top:5px;
   padding-bottom:5px;
   font-weight: 0.5;
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   border-radius: 2px;
   cursor:pointer;
   overflow: hidden;
@@ -157,8 +165,8 @@ input#name {
 
 .start-button:hover {
   background: #f6f6f6;
-  border: 1px solid black;
-  color: black;
+  border: 1px solid $secondary-color;
+  color: $secondary-color;
 }
 
 .flex-filler {
@@ -187,7 +195,7 @@ footer .footer {
   justify-content: center;
   text-align: center;
   font-family: 'open-sans', sans-serif;
-  color: black;
+  color: $secondary-color;
 }
 
 .footer span {
