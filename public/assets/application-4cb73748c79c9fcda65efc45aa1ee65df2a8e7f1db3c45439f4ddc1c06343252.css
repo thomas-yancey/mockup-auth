@@ -1,0 +1,262 @@
+/* line 7, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+body {
+  background-image: url(/assets/background-image-1-6ed129e119215437c883913edfcc7ee4239549905553b29c32ab4e3133439b93.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 18, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 120px;
+}
+
+/* line 25, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.authorea-logo {
+  max-width: 170px;
+}
+
+/* line 29, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.nav-list-right {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  float: right;
+  margin-right: 40px;
+  list-style: none;
+  align-items: center;
+}
+
+/* line 41, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.nav-list-right li {
+  margin-right: 40px;
+  font-size: 13px;
+  font-family: 'open-sans', sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* line 49, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.nav-link {
+  list-style: none;
+  display: block;
+  float: right;
+  color: #ffffff;
+}
+
+/* line 56, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.nav-link:hover {
+  color: #ffffff;
+}
+
+/* line 60, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.nav-link:active {
+  color: #ffffff;
+}
+
+/* line 64, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.nav-link:visited {
+  color: #ffffff;
+}
+
+/* line 68, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.signup {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  justify-content: center;
+  font-size: 13px;
+  text-align: center;
+  height: 40px;
+  width: 130px;
+  padding: 5px 30px 5px 30px;
+  border-radius: 50px;
+  border: 1px solid #ffffff;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* line 85, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.signup:hover {
+  font-family: 'Lato', sans-serif;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 30px 5px 30px;
+  border-radius: 50px;
+  border: 1px solid #ffffff;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  color: black;
+}
+
+/* line 99, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.welcome-container {
+  flex: 1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 111, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.tag-line {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* line 116, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.tag-line h2, p {
+  color: #ffffff;
+}
+
+/* line 120, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.tag-line h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 64px;
+  line-height: 120%;
+}
+
+/* line 127, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.tag-line p {
+  font-size: 16px;
+  max-width: 450px;
+  margin: 0 auto;
+  line-height: 175%;
+  padding-bottom: 40px;
+}
+
+/* line 135, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.landing-form input {
+  margin: 5px;
+  height: 40px;
+  width: 220px;
+}
+
+/* line 142, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.landing-form input#name {
+  padding-left: 20px;
+}
+
+/* line 146, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.landing-form .start-button {
+  text-decoration: none;
+  margin-top: 20px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  font-family: 'open-sans', sans-serif;
+  text-transform: uppercase;
+  width: 350px;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 0.5;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+/* line 166, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.start-button:hover {
+  background: #f6f6f6;
+  border: 1px solid black;
+  color: black;
+}
+
+/* line 172, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.flex-filler {
+  height: 40px;
+}
+
+/* line 176, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+footer {
+  flex: none;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  background: #F6F6F6;
+  background-repeat: repeat-y;
+}
+
+/* line 187, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+footer .footer {
+  align-self: flex-end;
+  height: 40px;
+}
+
+/* line 192, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.footer p {
+  font-size: 12px;
+  padding-top: 8px;
+  justify-content: center;
+  text-align: center;
+  font-family: 'open-sans', sans-serif;
+  color: black;
+}
+
+/* line 201, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+.footer span {
+  color: #ceb018;
+  font-weight: bold;
+}
+
+/* line 206, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+::-webkit-input-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder,
+:-moz-placeholder {
+  font-family: 'open-sans', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  /* line 215, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+  .tag-line h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 120%;
+  }
+
+  /* line 222, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+  ul {
+    display: none;
+  }
+
+  /* line 226, /Users/thomasyancey/Desktop/tutorials/mockup-auth/app/assets/stylesheets/welcome.scss */
+  .footer {
+    display: none;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
